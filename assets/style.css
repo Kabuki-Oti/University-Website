@@ -1,3 +1,9 @@
+:root {
+  --green_blue: #13777560;
+  --purple: #5358ac56;
+  --lime_green: #06f390c7;
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -112,8 +118,8 @@ nav img {
 }
 
 .hero-btn:hover {
-  border: 1px solid #6f85fd;
-  background: #021791;
+  border: 1px solid #13777560;
+  background: #1377759f;
   transition: 0.5s;
 }
 
@@ -137,7 +143,7 @@ h3 {
   margin: 10px 0;
   letter-spacing: 3px;
   font-size: 25px;
-  color: #ffffff;
+  color: #000000;
   letter-spacing: 8px;
 }
 
@@ -170,7 +176,7 @@ span {
 }
 
 .course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(6, 243, 144, 0.781);
+  box-shadow: 0 0 20px 0px #06f390c7;
 }
 
 /*-----home page:campus------*/
@@ -268,6 +274,7 @@ p {
   text-align: left;
   color: #000000;
   letter-spacing: 7px;
+  text-decoration: underline;
 }
 
 /*-----home page:student reviews------*/
@@ -283,7 +290,7 @@ p {
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background: #5358ac;
+  background: #5358ac56;
   padding: 25px;
   cursor: pointer;
   display: flex;
@@ -526,55 +533,44 @@ p {
 
 /*-----footer------*/
 .footer {
-  width: 100%;
   text-align: right;
-  padding: 30px 0;
-  background-color: #137775;
-  min-height: 20vh;
-  padding-top: 10px;
+  padding: 10px 0;
+  background-color: #137775b4;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
 }
 
 .footer img {
-  width: 200px;
+  width: 80px;
   border-radius: 150px;
-  float: left;
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .footer h4 {
-  margin-bottom: 15px;
-  margin-top: 20px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 
 .footer h5 {
-  margin-bottom: 15px;
-  margin-top: 20px;
   font-weight: 600;
   font-size: 10px;
-  padding-right: 18px;
+  padding-right: 20px;
 }
 
 .address ul li {
   color: #000000;
-  margin: 0 13px;
   cursor: pointer;
-  padding-right: 18px;
   list-style-type: none;
 }
 
 .icons .fa {
   color: #000000;
-  margin: 0 13px;
   cursor: pointer;
-  padding: 18px;
-  float: right;
 }
 
 .icons {
-  padding: 18px;
-  font-size: 35px;
+  font-size: 15px;
 }

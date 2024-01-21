@@ -8,12 +8,15 @@ This project is a simple, responsive website for a fictional university. It's bu
 ![ Home page](/assets/home%20page%20screenshot.png)
 
 - **About Page**: The about page provides information about the university. It includes an image and text section.
+
 ![ About page](/assets/about%20page%20screenshot.png)
 
 - **Course Page**: The course page lists the courses offered by the university. It includes sections for undergraduate courses, masters courses, and research degrees. It also has a facilities section similar to the one on the home page.
+
 ![ Course page](/assets/courses%20page%20screenshot.png)
 
 - **Contact Us Page**: The contact us page includes a Google Maps iframe showing the university's location. It also has a contact form and contact information section.
+
 ![ Contact Us page](/assets/contact%20page%20screenshot.png)
 
 ## Usage
